@@ -1,0 +1,117 @@
+.themed-container{
+  height: 100%;
+  background: url('../../assets/background.png') no-repeat;
+  position: absolute;
+}
+.logo {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 110px;
+  margin-bottom: 0px;
+}
+.icon-nav-bar-face{
+  position: absolute;  
+  margin-top: 99px;
+  margin-left: 1545px;
+  cursor: pointer;
+  transition: background-color 300ms;
+  border-radius: 50px;
+}
+.icon-nav-bar-face:hover{  
+  background-color: #651B1A;
+  border-radius: 50px; 
+}
+.icon-nav-bar-insta{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1635px;
+  cursor: pointer;
+  transition: background-color 300ms;
+  border-radius: 10px;
+}                                 
+.icon-nav-bar-insta:hover{
+  background-color: #651B1A;
+  border-radius: 10px;  
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+.menu{
+  color: #D5D5D5;  
+  letter-spacing: 0px;  
+  position: absolute;
+  margin-top: 101px;
+  margin-left: 1735px;
+  cursor: pointer;
+  transition: color 300ms;  
+}
+.menu:hover{
+  color: #651B1A;  
+} 
+.carousel{
+  width: 995px;
+  height: 726px;
+  display: flex;
+  flex-direction: initial;
+  position: absolute;
+  margin-top: 100px;  
+  margin-left: 55px;
+  background-position-x: left;
+}
+.stripe{
+  position: absolute;
+  margin-top: 341px;  
+  width: 150px;
+  height: 0;
+  color: #651B1A;
+  border: 1px solid;
+  margin-left: 972px;
+}
+.title{
+  position: absolute;
+  margin-top: 315px;  
+  margin-left: 85px;
+  width: 300px;
+  font-size: xx-large;
+  letter-spacing: 0px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #13100D;
+  text-transform: uppercase;
+}
+.description{
+  position: absolute;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 35px;
+  color: #707070;  
+  margin-top: 585px;  
+  margin-left: 65px;
+  margin-bottom: 0px;
+  width: 455px;
+  
+}
+.text{
+  position: absolute;
+  font-size: small; 
+  margin-top: 19px;
+  font-weight: 700;  
+  margin-left: 1270px;  
+  color: #13100D;
+  width: 415px;
+  text-transform: uppercase;
+}
+.nextIcon{
+  position: absolute;  
+  margin-left: 1645px;
+  cursor: pointer;    
+}
+.footer{  
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 115px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #13100D;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+}
